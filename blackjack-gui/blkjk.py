@@ -17,7 +17,6 @@ def sorted_alphanumeric(data):
 
 FileDir=''
 File=sorted_alphanumeric(os.listdir('cards/'))
-print(File)
 
 class PlayerInfo:
     def __init__(self,chips):
